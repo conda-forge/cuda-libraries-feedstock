@@ -19,7 +19,7 @@ requirements:
     - cuda-opencl 12.2.140  # [linux64 or win]
     - libcublas 12.2.5.6
     - libcufft 11.0.8.103 
-    - libcufile 1.7.2.10  # [linux64]
+    - libcufile 1.7.2.10  # [linux64 or aarch64]
     - libcurand 10.3.3.141
     - libcusolver 11.5.2.141
     - libcusparse 12.1.2.141
