@@ -1,4 +1,4 @@
-{% set version = "12.4.1" %}
+{% set version = "12.5.0" %}
 
 package:
   name: cuda-libraries
@@ -9,24 +9,24 @@ source:
   sha256: e2c71babfd18a8e69542dd7e9ca018f9caa438094001a58e6bc4d8c999bf0d07
 
 build:
-  number: 1
+  number: 0
   skip: true  # [osx]
 
 requirements:
   run:
-    - cuda-cudart 12.4.127
-    - cuda-nvrtc 12.4.127
-    - cuda-opencl 12.4.127    # [linux64 or win]
-    - libcublas 12.4.5.8
-    - libcufft 11.2.1.3 
-    - libcufile 1.9.1.3       # [linux64 or aarch64]
-    - libcurand 10.3.5.147
-    - libcusolver 11.6.1.9
-    - libcusparse 12.3.1.170
-    - libnpp 12.2.5.30
-    - libnvfatbin 12.4.127
-    - libnvjitlink 12.4.127
-    - libnvjpeg 12.3.1.117
+    - cuda-cudart 12.5.39
+    - cuda-nvrtc 12.5.40
+    - cuda-opencl 12.5.39    # [linux64 or win]
+    - libcublas 12.5.2.13
+    - libcufft 11.2.3.18 
+    - libcufile 1.10.0.4       # [linux64 or aarch64]
+    - libcurand 10.3.6.39
+    - libcusolver 11.6.2.40
+    - libcusparse 12.4.1.24
+    - libnpp 12.3.0.116
+    - libnvfatbin 12.5.39
+    - libnvjitlink 12.5.40
+    - libnvjpeg 12.3.2.38
 
 test:
   commands:
