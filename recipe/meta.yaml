@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx]
+  skip: true  # [osx or ppc64le]
 
 requirements:
   run:
@@ -19,7 +19,7 @@ requirements:
     - cuda-opencl 12.5.39    # [linux64 or win]
     - libcublas 12.5.2.13
     - libcufft 11.2.3.18 
-    - libcufile 1.10.0.4       # [linux64 or aarch64]
+    - libcufile 1.10.0.4       # [linux]
     - libcurand 10.3.6.39
     - libcusolver 11.6.2.40
     - libcusparse 12.4.1.24
