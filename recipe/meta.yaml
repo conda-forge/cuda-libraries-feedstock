@@ -1,4 +1,4 @@
-{% set version = "13.0.1" %}
+{% set version = "13.0.2" %}
 
 package:
   name: cuda-libraries
@@ -14,10 +14,10 @@ build:
 
 requirements:
   run:
-    - cuda-cudart 13.0.88
+    - cuda-cudart 13.0.96
     - cuda-nvrtc 13.0.88
     - cuda-opencl 13.0.85    # [linux64 or win]
-    - libcublas 13.0.2.14
+    - libcublas 13.1.0.3
     - libcufft 12.0.0.61 
     - libcufile 1.15.1.6       # [linux]
     - libcurand 10.4.0.35
