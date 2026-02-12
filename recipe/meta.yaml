@@ -9,7 +9,7 @@ source:
   sha256: e2c71babfd18a8e69542dd7e9ca018f9caa438094001a58e6bc4d8c999bf0d07
 
 build:
-  number: 0
+  number: 1
   skip: true  # [osx or ppc64le]
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
     - libcublas 13.2.1.1
     - libcufft 12.1.0.78 
     - libcufile 1.16.1.26       # [linux]
+    - libcuobjclient 1.0.0.26  # [linux64 or aarch64]
     - libcurand 10.4.1.81
     - libcusolver 12.0.9.81
     - libcusparse 12.7.3.1
