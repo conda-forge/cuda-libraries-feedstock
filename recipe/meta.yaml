@@ -18,7 +18,7 @@ requirements:
     - cuda-nvrtc 13.2.51
     - cuda-opencl 13.2.51    # [linux64 or win]
     - libcublas 13.3.0.5
-    - libcudla 13.3.0.5      # [linux64 or aarch64]
+    - libcudla 13.2.51     # [linux and aarch64]
     - libcufft 12.2.0.37
     - libcufile 1.17.0.44       # [linux]
     - libcuobjclient 1.1.0.44  # [linux64 or aarch64]
