@@ -1,4 +1,4 @@
-{% set version = "13.1.1" %}
+{% set version = "13.1.2" %}
 
 package:
   name: cuda-libraries
@@ -9,7 +9,7 @@ source:
   sha256: e2c71babfd18a8e69542dd7e9ca018f9caa438094001a58e6bc4d8c999bf0d07
 
 build:
-  number: 1
+  number: 0
   skip: true  # [osx or ppc64le]
 
 requirements:
@@ -17,7 +17,7 @@ requirements:
     - cuda-cudart 13.1.80
     - cuda-nvrtc 13.1.115
     - cuda-opencl 13.1.115    # [linux64 or win]
-    - libcublas 13.2.1.1
+    - libcublas 13.2.2.2
     - libcufft 12.1.0.78 
     - libcufile 1.16.1.26       # [linux]
     - libcuobjclient 1.0.0.26  # [linux64 or aarch64]
