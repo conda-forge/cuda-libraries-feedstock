@@ -1,4 +1,4 @@
-{% set version = "13.4.2" %}
+{% set version = "13.4.3" %}
 
 package:
   name: cuda-libraries
@@ -23,7 +23,7 @@ requirements:
     - libcufile 1.19.1.55       # [linux]
     - libcuobjclient 1.3.1.55  # [linux64 or aarch64]
     - libcurand 10.4.4.72
-    - libcusolver 12.3.4.7
+    - libcusolver 12.3.5.3
     - libcusparse 12.8.6.72
     - libnpp 13.2.0.58
     - libnvfatbin 13.4.92
